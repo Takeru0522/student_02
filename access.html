@@ -1,0 +1,158 @@
+<!-- home -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+        </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+    var offset = 100;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > offset) {
+    jQuery('.pagetop').fadeIn(duration);
+    } else {
+    jQuery('.pagetop').fadeOut(duration);
+    }
+    });
+    jQuery('.pagetop').click(function(event) {
+    event.preventDefault();
+    jQuery('html, body').animate({scrollTop: 0}, duration);
+    return false;  
+    })
+    });
+    </script>
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <div class="header-left">
+            <!-- ヘッダーロゴ -->
+            <a href="index.html">
+                <img class="logo" src="./assets/img/logo/logo.png" alt="">
+                </a>
+            </div>
+        <!-- ヘッダーリンク -->
+        <div class="header-right">
+            <ul class="nav">
+                <li><a href="index.html">home</a></li>
+                <li><a href="service.html">service</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="access.html">access</a></li>
+            </ul>
+        </div>
+    </header>
+        <div class="container-0">
+            <h1>access</h1>
+            <h4>アクセス</h4>
+        </div>
+    <main>
+        <div class="container-1">
+            <div class="picture">
+                <h3>店舗入り口</h3>
+                <hr class="cp_hr01" />
+                <img class="picture" src="./assets/img/access/shop.png" alt="">
+            </div>
+            <div class="gmap">
+                <h3>MAP</h3>
+                <hr class="cp_hr01" />
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.5770721586678!2d136.    88468731491875!3d35.167166980317354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600376df21d589f5%3A0x3fb50d95df225148!2z44Kk44Ko44Ot44O844K444Oj44Kx44OD44OIIOWQjeWPpOWxi-mnheWJjeW6lw!5e0!3m2!1sja!2sjp!4v1600519949906!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;"></iframe>
+            </div>
+        </div>
+
+        <div class="container-2">
+            <div class="adress-1">
+             <h3>所在地</h3>
+             <hr class="cp_hr01" />
+            <P>名古屋市中村区名駅南1-18-24マイビル1階</P>
+            <hr class="cp_hr02" />
+            <P>電話 : 052-565-1136</P>
+            <hr class="cp_hr02" />
+            <P>Email : yj_info@jasmine.ocn.ne.jp</P>
+            <hr class="cp_hr02" />
+            <P>URL : https://yjnagoya.uresii.net/</P>
+            <hr class="cp_hr02" />
+            <P>営業日：平日10：00～18：00</P>
+            <hr class="cp_hr02" />
+            <P>土曜日：営業日カレンダー参照</P>
+            <hr class="cp_hr02" />
+            <P>定休日：日曜祝日（祝日臨時営業日あり）</P>
+            <hr class="cp_hr02" />
+            </div>
+
+            <div class="message">
+                <div class="message-1">
+                <h3>行き方</h3>
+                <hr class="cp_hr01" />
+                <h4>名古屋駅よりお越しの方</h4>
+                <p>名駅笹島交差点（スパイラルタワー・レジャック）より約2分。</p>
+                <p>笹島交差点より広小路通り札幌かに本家さんを南（右折）</p>
+                <p>約50～60メートル左側にお店があります。</p>
+                <p>日本料理の舞鶴館さんが目印です。</p>
+                </div>
+                <div class="message-2">
+                <h4>車でお越しの方</h4>
+                <P>名古屋市中村区　柳橋交差点「三菱UFJ銀行」を</P>
+                <P>目印に広小路通りを笹島交差点方面へ西に進んで下さい。</P>
+                <P>「かに本家」さんを左目印に左折、</P>
+                <P>50～60メートル先左側に当店があります。</P>
+                <P>日本料理「舞鶴館」さん同ビル内、南側1階です。</P>
+                <P>（笹島交差点を伏見・栄向き東進では</P>
+                <P>右折ができませんのでご注意ください）</P>
+                </div>
+            </div>
+        </div>
+        <div class="container-3">
+            <a href="contact.html">
+            <img class="picture" src="./assets/img/contact/tel.PNG" alt="">
+            </a>
+        </div>
+    </main>
+
+
+    <div class="pagetop">↑</div>
+</body>
+
+<!-- フッター -->
+<footer>
+    <div class="footer-top">
+          <div class="footer-adress">
+          <p>〒450-0003</p>
+          <p>名古屋市中村区名駅南1-18-24マイビル1階</p>
+          <p>電話 : 052-565-1136</p>
+          <p>Email : yj_info@jasmine.ocn.ne.jp</p>
+          <p>URL : XXXXXXXXXXXXXXXXXXXXX</p>
+          </div>
+          <div class="footer-info">
+              <p>営業日：平日10：00～18：00 </p>
+              <p>土曜日：営業日カレンダー参照</p>
+              <p>定休日：日曜祝日（祝日臨時営業日あり）</p>
+          </div> 
+    </div>
+    <div class="fotter-bottom">
+          <ul class="footer-sitemap">
+                  <li><a href="index.html">home</a>|</li>
+                  <li><a href="service.html">service</a>|</li>
+                  <li><a href="contact.html">contact</a>|</li>
+                  <li><a href="access.html">access</a>|</li>
+          </ul>
+            <div class="footer-sitemap-2">
+            <br>© All rights reserved by yellowjacket.</br>
+             </div>
+            </div>
+    </footer>
+  
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="./js/jquery.scrollme.min.js"></script>
+<script src="./js/main.js"></script>
+</html>

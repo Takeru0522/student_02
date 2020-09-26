@@ -1,0 +1,235 @@
+<!-- home -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+            </style>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+    var offset = 100;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > offset) {
+    jQuery('.pagetop').fadeIn(duration);
+    } else {
+    jQuery('.pagetop').fadeOut(duration);
+    }
+    });
+    jQuery('.pagetop').click(function(event) {
+    event.preventDefault();
+    jQuery('html, body').animate({scrollTop: 0}, duration);
+    return false;  
+    })
+    });
+    </script>
+</head>
+<body>
+     <!-- ヘッダー -->
+     <header>
+        <div class="header-left">
+            <!-- ヘッダーロゴ -->
+            <a href="index.html">
+                <img class="logo" src="./assets/img/logo/logo.png" alt="">
+                </a>
+        </div>
+        <!-- ヘッダーリンク -->
+        <div class="header-right">
+            <ul class="nav">
+                <li><a href="index.html">home</a></li>
+                <li><a href="service.html">service</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="access.html">access</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+        <div class="container-0">
+            <h1>service</h1>
+            <h4>各種サービス</h4>
+        </div>
+        <!-- 証明写真 -->
+        <section id="id-photo">
+            <div class="section-items scrollme">
+                <img src="./assets/img/service/id_jobhunting.PNG"
+                class="scrollme animateme" 
+                data-when="enter"
+                data-from="1"
+                data-to="0"
+                data-opacity="0"
+                data-translatex="-250"
+                data-scale="0.5" 
+                alt="" >
+                <div class="id-photo">
+                    <h3>証明写真（パスポート・VISA・就活用）</h3>
+                    <hr class="cp_hr01" />
+                    <p>個人を証明するための大切な写真。</p>
+                    <hr class="cp_hr02" />
+                    将来を左右するような大事な写真から身分を証明する各種申請用写真まで用途はさまざまです。
+                    <hr class="cp_hr02" />
+                    特に就職活動用や転職活動には力を入れ、23年を超える長年の実績でこれまでのお客様にも大変好評価をいただいてます。
+                    <hr class="cp_hr02" />
+                    パスポートやビザ取得用の申請用写真も数多くの実績から安心してご依頼いただけます。
+                    <hr class="cp_hr02" />
+                    また、ホームページやSNS、プロフィール写真撮影も承ります。  
+                    <hr class="cp_hr02"/>
+                    就活生の方は名古屋駅近郊で行われる就活セミナー説明会、大学での就活説明会などスーツ着用の機会に
+                    <hr class="cp_hr02" />
+                  就活写真の撮影は名古屋駅から近いイエロージャケットへお越し下さい。
+                    <hr class="cp_hr02" />
+                    また、パスポート写真も申請と同時、または名古屋駅近郊のお買い物ついでに名駅から近いので便利です。</p>
+                    <hr class="cp_hr02" />
+                </div>         
+            </div>
+        </section>
+
+        <!-- ネットプリント -->
+
+            <section id="print">
+            <div class="id-print">
+                <h3>ネットプリント</h3>
+                <hr class="cp_hr01" />
+                    名駅で写真印刷・家庭用プリントと比べたら…お店の焼付けプリントなら長持ち、光沢良し、コスパ良し！
+                    <hr class="cp_hr02" />
+                    家庭用インクジェットは濡れたら元に戻らない。意外とコスパが悪い。
+                    <hr class="cp_hr02" />
+                    デジタルカメラの画像はもちろん、スマホの写真もプリンできます。
+                    <hr class="cp_hr02" />
+                    店頭受付機で数量やサイズを指定して画面を見ながら注文できます。 
+                    <hr class="cp_hr02"/>
+                    ネガやポジフィルムプリントもプロラボに近い品質でご提供。
+                    <hr class="cp_hr02" />※フィルムの現像はお取り扱いしておりません。現像済フィルムからのデジタル化サービスのみとなります。
+                    <hr class="cp_hr02" />
+                </div>  
+                <div class="section-items scrollme">
+                    <img src="./assets/img/service/print.PNG"
+                    class="scrollme animateme" 
+                    data-when="enter"
+                    data-from="1"
+                    data-to="0"
+                    data-opacity="0"
+                    data-translatex="250"
+                    data-scale="0.5" 
+                    alt="" >
+                </div>         
+            </div>
+        </section>
+        <!-- データ復旧 -->
+        <section id="id-photo">
+            <div class="section-items scrollme">
+                <img src="./assets/img/service/data.PNG"
+                class="scrollme animateme" 
+                data-when="enter"
+                data-from="1"
+                data-to="0"
+                data-opacity="0"
+                data-translatex="-250"
+                data-scale="0.5" 
+                alt="" >
+                <div class="id-photo">
+                    <h3>データ復旧</h3>
+                    <hr class="cp_hr01" />
+                    <p>ネガ・ポジフィルムのデータ化・安くてきれいに仕上げます。</p>
+                    <hr class="cp_hr02" />
+                    35ミリからブローニーサイズのデータ化 4×5も対応
+                    <hr class="cp_hr02" />
+                    高性能スキャナーによるプロスキャン・低価格でスピーディー
+                    <hr class="cp_hr02" />
+                    アマチュア・個人・企業全般からのご依頼対応します。小ロットから大量処理も受け使ております。
+                    <hr class="cp_hr02" />
+                    当店の店舗内で作業しておりますので海外処理をしません。紛失・破損のリスクは大きく軽減され安心です。
+                    <hr class="cp_hr02"/>
+                    フィルムや写真素材を店頭お持ち込みまたは配送などでお送り下さい。
+                    <hr class="cp_hr02" />
+                    名古屋から全国発送対応いたします。
+                    <hr class="cp_hr02" />
+                </div>         
+            </div>
+        </section>
+        <!-- 出張撮影 -->
+        <section id="print">
+        <div class="id-print">
+            <h3>出張撮影</h3>
+            <hr class="cp_hr01" />
+                Yellow Jacket 撮影チームにお任せください。
+                <hr class="cp_hr02" />
+                各分野で活躍するプロカメラマンがお待ちしております。
+                <hr class="cp_hr02" />
+                デジタルカメラ撮影からビデオ撮影まで承ります。
+                <hr class="cp_hr02" />
+                各分野で活躍中の当店提携プロカメラマンを派遣いたします。 
+                <hr class="cp_hr02"/>
+            </div>  
+            <div class="section-items scrollme-4">
+                <img src="./assets/img/service/party.jpg"
+                width="600"
+                height="auto"
+                class="scrollme animateme" 
+                data-when="enter"
+                data-from="1"
+                data-to="0"
+                data-opacity="0"
+                data-translatex="250"
+                data-scale="0.5" 
+                alt="" >
+            </div>         
+        </div>
+    </section>
+
+    <!-- お問い合わせ -->
+    <div class="container-3">
+        <a href="contact.html">
+        <img class="picture" src="./assets/img/contact/tel.PNG" alt="">
+        </a>
+    </div>
+
+    <!-- スクロールボタン -->
+    <div class="pagetop">↑</div>
+
+    <!-- jQueri -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="./js/jquery.scrollme.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+<!-- フッター -->
+<footer>
+    <div class="footer-top">
+          <div class="footer-adress">
+          <p>〒450-0003</p>
+          <p>名古屋市中村区名駅南1-18-24マイビル1階</p>
+          <p>電話 : 052-565-1136</p>
+          <p>Email : yj_info@jasmine.ocn.ne.jp</p>
+          <p>URL : XXXXXXXXXXXXXXXXXXXXX</p>
+          </div>
+          <div class="footer-info">
+              <p>営業日：平日10：00～18：00 </p>
+              <p>土曜日：営業日カレンダー参照</p>
+              <p>定休日：日曜祝日（祝日臨時営業日あり）</p>
+          </div> 
+    </div>
+    <div class="fotter-bottom">
+          <ul class="footer-sitemap">
+                  <li><a href="index.html">home</a>|</li>
+                  <li><a href="service.html">service</a>|</li>
+                  <li><a href="contact.html">contact</a>|</li>
+                  <li><a href="access.html">access</a>|</li>
+          </ul>
+            <div class="footer-sitemap-2">
+            <br>© All rights reserved by yellowjacket.</br>
+             </div>
+            </div>
+    </footer>
+  
+  
+</html>
